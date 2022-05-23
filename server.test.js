@@ -24,7 +24,7 @@ it('Call the /pong endpoint', async done => {
 it('Call the /hello/:name endpoint', async done => {
     const res = await request.get('/hello/ridho')
     expect(res.status).toBe(200)
-    expect(res.body.message).toBe('Hello Ridho')
+    expect(res.body.message).toBe('Hello ridho')
     done()
 })
   
