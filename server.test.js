@@ -6,7 +6,7 @@ const request = supertest(app)
 it('Call the /youtube endpoint', async done => {
     const res = await request.get('/youtube')
     expect(res.status).toBe(200)
-    expect(res.text).toBe('Hello, youtube indonesia!')
+    expect(res.text).toBe('Hello, youtube!')
     done()
 })
 it('Call the / endpoint', async done => {
@@ -22,9 +22,9 @@ it('Call the /pong endpoint', async done => {
     done()
 })
 it('Call the /hello/:name endpoint', async done => {
-    const res = await request.get('/hello/Iqbal')
+    const res = await request.get('/hello/ridho')
     expect(res.status).toBe(200)
-    expect(res.body.message).toBe('Hello Iqbal')
+    expect(res.body.message).toBe('Hello Ridho')
     done()
 })
   
