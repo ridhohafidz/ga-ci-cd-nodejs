@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/ridhohafidz/ga-ci-cd-nodejs.git"
   },
-  "author": "2pai",
+  "author": "ridhohafidz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ridhohafidz/github-actions-ci-cd-nodejs/issues"
